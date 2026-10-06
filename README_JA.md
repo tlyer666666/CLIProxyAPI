@@ -2,6 +2,8 @@
 
 [English](README.md) | [中文](README_CN.md) | 日本語
 
+> **注記：** 本リポジトリは [router-for-me/CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) の改変版コピーです。上流に加えて、トークン使用量追跡モジュール（`internal/usage` と TUI の usage タブ）を復活させ、antigravity の OAuth 認証情報を環境変数から読み取れるようにしています。それ以外は上流と同一です。著作権は上流の作者に帰属し、上流のライセンスに従って配布されます（[LICENSE](LICENSE) を参照）。
+
 CLI向けのOpenAI/Gemini/Claude/Codex/Grok互換APIインターフェースを提供するプロキシサーバーです。
 
 ローカル環境や複数のCLIアカウントを通じて、OpenAI（Responses含む）、Gemini（Interactions含む）、またはClaude互換のクライアントやSDKから、以下のプロバイダーにアクセスできます。
