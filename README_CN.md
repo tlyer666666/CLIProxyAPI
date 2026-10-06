@@ -2,6 +2,8 @@
 
 [English](README.md) | 中文 | [日本語](README_JA.md)
 
+> **说明：** 本仓库是 [router-for-me/CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) 的修改版副本：在上游基础上恢复了用量统计模块（`internal/usage` 与 TUI 用量页），并支持通过环境变量读取 antigravity OAuth 凭证，其余与上游一致。版权归上游作者所有，按上游许可证分发（见 [LICENSE](LICENSE)）。
+
 一个为 CLI 提供 OpenAI/Gemini/Claude/Codex/Grok 兼容 API 接口的代理服务器。
 
 您可以通过任何与 OpenAI（包括 Responses）、Gemini（包括 Interactions）或 Claude 兼容的客户端或 SDK，以本地方式或多 CLI 账户访问以下提供商。

@@ -2,6 +2,8 @@
 
 English | [中文](README_CN.md) | [日本語](README_JA.md)
 
+> **Note:** This repository is a modified copy of [router-for-me/CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI). On top of upstream it re-adds the token usage tracking module (`internal/usage` with the TUI usage tab) and reads antigravity OAuth credentials from environment variables. Everything else matches upstream. Upstream holds the copyright; this copy is distributed under the upstream license (see [LICENSE](LICENSE)).
+
 A proxy server that provides OpenAI/Gemini/Claude/Codex/Grok compatible API interfaces for CLI.
 
 You can access the following providers locally and with multiple CLI accounts through any OpenAI (including Responses), Gemini (including Interactions), or Claude-compatible client or SDK.
